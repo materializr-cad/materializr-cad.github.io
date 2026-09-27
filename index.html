@@ -48,7 +48,7 @@
           <a href="https://github.com/materializr-cad/materializr/releases/latest" style="text-decoration: none; font-size: 16px; font-weight: 600; color: #fff; background: #2e6fdb; border-radius: 10px; padding: 15px 26px; box-shadow: 0 12px 30px -10px rgba(46,111,219,0.7);">Download latest release</a>
           <a href="https://github.com/materializr-cad/materializr" style="text-decoration: none; font-size: 16px; font-weight: 600; color: #e8eaed; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px; padding: 15px 22px;">★ View on GitHub</a>
         </div>
-        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #6b7480; margin-top: 24px;">v1.6.4 · <a href="https://github.com/materializr-cad/materializr/blob/main/LICENSE" style="color: #6b7480;">GPLv3</a> · Linux · macOS · Windows · iOS · Android</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #6b7480; margin-top: 24px;">v1.7.1 · <a href="https://github.com/materializr-cad/materializr/blob/main/LICENSE" style="color: #6b7480;">GPLv3</a> · Linux · macOS · Windows · iOS · Android</div>
       </div>
 
       <!-- annotated screenshot -->
@@ -184,7 +184,7 @@
           <div>
             <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.18em; color: #2e6fdb; text-transform: uppercase; margin-bottom: 14px;">05 &middot; Workspace</div>
             <h3 style="font-size: 30px; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 14px;">Several projects open at once.</h3>
-            <p style="font-size: 16px; line-height: 1.65; color: #4d545b; margin: 0 0 18px;">Work across tabs — each project keeps its own history, camera and crash recovery, so borrowing a part from one design for another is a click away. Start from a home screen that shows a rendered preview of every recent project instead of a list of filenames.</p>
+            <p style="font-size: 16px; line-height: 1.65; color: #4d545b; margin: 0 0 18px;">Work across tabs — each project keeps its own history, camera and crash recovery, so borrowing a part from one design for another is a click away. Start from a home screen that shows a rendered preview of every recent project instead of a list of filenames. Drag to reorder bodies and folders in the Items panel, or send a body straight to another open tab.</p>
             <div style="display: flex; flex-wrap: wrap; gap: 8px;">
               <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">project tabs</span>
               <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">home screen</span>
@@ -194,6 +194,41 @@
           </div>
           <div style="aspect-ratio: 16/10; border-radius: 12px; border: 1px solid #e1e1da; overflow: hidden; background: #16191c;">
             <img src="assets/feat-workspace.jpg" alt="Three project tabs open in Materializr; a 68-body model organised into named folders with its full dated history" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;">
+          </div>
+        </div>
+
+        <!-- Assistant -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center;">
+          <div style="order: 2;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.18em; color: #2e6fdb; text-transform: uppercase; margin-bottom: 14px;">06 · Assistant</div>
+            <h3 style="font-size: 30px; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 14px;">Ask for it in plain English.</h3>
+            <p style="font-size: 16px; line-height: 1.65; color: #4d545b; margin: 0 0 18px;">A built-in AI Assistant turns a plain-language request into real, undoable geometry — "fillet this edge by 3mm" becomes an actual fillet, landing in your History exactly like you'd built it by hand, so Ctrl+Z undoes it the same way. Bring your own key: point it at Anthropic, OpenAI, or any OpenAI-compatible endpoint — including a local Ollama or LM Studio server, so nothing has to leave your machine.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">bring your own key</span>
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">local models supported</span>
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">17 modeling tools</span>
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">undoable, like anything else</span>
+            </div>
+          </div>
+          <div style="order: 1; aspect-ratio: 16/10; border-radius: 12px; border: 1px solid #e1e1da; overflow: hidden; background: #16191c;">
+            <img src="assets/feat-assistant.jpg" alt="AI Assistant chat panel filleting an edge on a simple part by request" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          </div>
+        </div>
+
+        <!-- Units -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center;">
+          <div>
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.18em; color: #2e6fdb; text-transform: uppercase; margin-bottom: 14px;">07 · Units</div>
+            <h3 style="font-size: 30px; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 14px;">Work in the units you actually think in.</h3>
+            <p style="font-size: 16px; line-height: 1.65; color: #4d545b; margin: 0 0 18px;">Set a display unit — millimetres, centimetres, metres, inches or feet — and it applies everywhere a length shows up: every field, every dimension, every caption, even the sketch grid itself. Type "2 in" for a hole and skip the mental math. Nothing about the model or the saved file changes underneath — only what you see and type does.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">mm · cm · m · in · ft</span>
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">type your own units</span>
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #3a4047; background: #fff; border: 1px solid #e3e3dd; border-radius: 6px; padding: 6px 10px;">grid scales with zoom</span>
+            </div>
+          </div>
+          <div style="aspect-ratio: 16/10; border-radius: 12px; border: 1px solid #e1e1da; overflow: hidden; background: #16191c;">
+            <img src="assets/feat-units.jpg" alt="Display unit dropdown over the sketch grid, set to Metres, on an aircraft model" style="width: 100%; height: 100%; object-fit: cover; display: block;">
           </div>
         </div>
 
